@@ -1,0 +1,28 @@
+{  
+  "name": "fedcampus-2.0",  
+  "version": "1.0.0",  
+  "description": "FedCampus 2.0 React Native Application",  
+  "main": "index.js",  
+  "scripts": {  
+    "start": "react-native start",  
+    "android": "react-native run-android",  
+    "ios": "react-native run-ios",  
+    "test": "jest",  
+    "test:watch": "jest --watch",  
+    "test:coverage": "jest --coverage"  
+  },  
+  "dependencies": {  
+    "react": "^18.2.0",  
+    "react-native": "^0.72.0",  
+    "react-native-rsa-native": "^2.0.0",  
+    "crypto-js": "^4.1.1"  
+  },  
+  "devDependencies": {  
+    "jest": "^29.0.0",  
+    "@testing-library/react-native": "^12.0.0",  
+    "@testing-library/jest-native": "^5.4.0",  
+    "@babel/core": "^7.20.0",  
+    "@babel/preset-env": "^7.20.0",  
+    "@babel/runtime": "^7.20.0"  
+  }  
+}
