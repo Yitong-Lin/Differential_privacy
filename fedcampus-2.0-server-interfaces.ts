@@ -15,7 +15,14 @@ interface DecryptedStatisticalData {
   
 // 分组统计数据  
 interface GroupStatistics {  
-  group: 'all' | 'male' | 'female' | 'ug-2025' | 'g-2025' | 'staff' | 'faculty';  
+  group: GroupType;  
   percent: number;          // <float>  
   samples: number[];        // [<int>, <int>, ...] 根据数据类型可能是int或float  
-}
+}  
+  
+// 分组类型定义  
+type GroupType =   
+  | 'all'                    // 全部成员  
+  | 'male' | 'female'        // 性别分组  
+  | 'ug-2025' | 'g-2025' | 'staff' | 'faculty';     // 具体分组  
+  
