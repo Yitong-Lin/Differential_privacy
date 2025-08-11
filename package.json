@@ -26,7 +26,8 @@
     "@babel/runtime": "^7.20.0"  
   },
   "jest": {
-  "transform": {
-    "^.+\\.[tj]sx?$": "babel-jest"
+    "transform": {
+      "^.+\\.[tj]sx?$": "babel-jest"
+    }
   }
 }
