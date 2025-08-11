@@ -24,5 +24,9 @@
     "@babel/core": "^7.20.0",  
     "@babel/preset-env": "^7.20.0",  
     "@babel/runtime": "^7.20.0"  
-  }  
+  },
+  "jest": {
+  "transform": {
+    "^.+\\.[tj]sx?$": "babel-jest"
+  }
 }
